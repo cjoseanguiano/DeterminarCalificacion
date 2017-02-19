@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.determinarcalificacion.devix.determinarcalificacion.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOne"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/editText2"
+        android:layout_margin="10dp"
+        android:text="Hello World!" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Button" />
+
+    </LinearLayout>
+</LinearLayout>
